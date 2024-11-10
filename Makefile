@@ -9,7 +9,7 @@ CC=gcc
 TARGET=imgRead
 
 all:
-	$(CC) imgRead.c -o $(TARGET)
+	$(CC) dvcp.c -o $(TARGET)
 
 clean:
 	rm $(TARGET)
